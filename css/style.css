@@ -1,0 +1,84 @@
+html, body, p, h1, h2, h3, h4{
+    margin:0;
+    padding:0;
+}
+
+a{
+    color:navy;
+    text-decoration: none;
+}
+a:hover{
+    color:green;
+    text-decoration: none;
+}
+
+#top{
+    background-color: #C2825E;
+    border-bottom: solid 5px #85451A;
+    padding:20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#top h1{
+    color:white;
+}
+#footer{
+    background-color: #C2825E;
+    border-top: solid 5px #85451A;
+    padding:30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#content{
+    width:960px;
+    margin:0 auto;
+}
+
+
+.book{
+    padding:10px 0;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #85451A;
+}
+.book h4{
+    font-size: 22px;
+    font-family: tahoma, verdana;
+    color:#85451A;
+}
+.book span{
+    font-family: Helvetica;
+    font-size: smaller;
+    color:#C2825E;
+    font-style: italic;
+}
+.book p{
+    margin:5px 10px;
+}
+.book a{
+    float:right;
+}
+
+
+.newBook{
+    opacity:0;
+}
+
+button{
+    padding:5px 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+label.error {
+    display: block;
+    height:17px;
+    margin-left:9px;
+    padding:1px 5px 0px 5px;
+    font-size:small;
+    color: #c00;
+}
+
+input[type=text], input[type=number]{
+    width:300px;
+}
