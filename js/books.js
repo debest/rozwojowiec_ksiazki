@@ -1,3 +1,6 @@
+/*! books.js - 2014-09-25
+* Manage main page with deleting and adding books
+* Copyright 2014 Dominik Baranowski */
 (function($) {
     //show statement in a default dialog box
     function statement(dialog,title,statement){
