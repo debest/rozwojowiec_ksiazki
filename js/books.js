@@ -24,10 +24,10 @@
             modal:true,
             position: {
                 my: "center center",
-                at: "center center-250"
+                at: "center center",
             },
             height: 500,
-            width: 570
+            width: 620
         });
 
         //create dialog box to show progress bar when something is processing
@@ -38,7 +38,7 @@
             title: 'Trwa przetwarzanie...',
             position: {
                 my: "center center",
-                at: "center center-55"
+                at: "center center"
             },
             height: 105,
             width: 400
@@ -51,7 +51,7 @@
             closeOnEscape: false,
             position: {
                 my: "center center",
-                at: "center center-100"
+                at: "center center"
             },
         };
 
